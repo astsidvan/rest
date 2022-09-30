@@ -9,12 +9,7 @@ branches:
 build: off # будем использовать свой скрипт сборки
   
 install:
-<<<<<<< HEAD
   -  chmod +x gradlew
-=======
-
-  - chmod +x gradlew
->>>>>>> b5133437cd9d73f3b3dfc69da11863723c4853c9
   # запускаем SUT (& означает, что в фоновом режиме не блокируем терминал для запуска тестов)
   - java -jar ./artifacts/app-mbank.jar &
 
